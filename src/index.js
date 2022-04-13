@@ -4,7 +4,6 @@ console.log('Welcome to the Brain Games!');
 const userName = readlineSync.question('May I have your name? ');
 console.log(`Hello, ${userName}!`);
 
-
 const gameTemplate = (gameData, gameRules) => {
   let i = 1;
 
@@ -25,9 +24,8 @@ const gameTemplate = (gameData, gameRules) => {
   }
 
   if (i === 4) {
-   console.log(`Congratulations, ${userName}!`);
+    console.log(`Congratulations, ${userName}!`);
   }
 };
-
 
 export default gameTemplate;

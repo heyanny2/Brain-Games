@@ -31,4 +31,4 @@ const gameData = () => {
     return [correctAnswer, statement];
 };
 
-export {gameData, gameRules};
+export { gameData, gameRules };

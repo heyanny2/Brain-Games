@@ -4,7 +4,6 @@ const findCorrectAnswer = (num1, num2) => {
     let a = num1;
     let b = num2;
     let temp;
-    
     while (b !== 0) {
         temp = b;
         b = a % b;
@@ -21,4 +20,4 @@ const gameData = () => {
     return [correctAnswer, statement];
 };
 
-export {gameData, gameRules};
+export { gameData, gameRules };
