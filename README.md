@@ -19,7 +19,8 @@ npm link
 The essence of the game is as follows: the user is shown a random number. And he needs to answer yes if the number is even, or no if it is odd. The user must give the correct answer to three questions in a row.
 Run game:
 
-```brain-even
+```
+brain-even
 ```
 
 [![asciicast](https://asciinema.org/a/jfkmACp3LOxIEdcO9EC9JcDbJ.svg)](https://asciinema.org/a/jfkmACp3LOxIEdcO9EC9JcDbJ)
