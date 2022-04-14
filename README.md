@@ -6,8 +6,9 @@
 [![Lint Status](https://github.com/heyanny2/frontend-project-lvl1/actions/workflows/lint.yml/badge.svg)](https://github.com/heyanny2/frontend-project-lvl1/actions)
 
 ### Installation and setup:
-git clone git@github.com:heyanny2/frontend-project-lvl1.git
-```cd frontend-project-lvl1
+```git clone git@github.com:heyanny2/frontend-project-lvl1.git
+
+cd frontend-project-lvl1
 
 npm ci
 
