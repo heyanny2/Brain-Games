@@ -3,7 +3,7 @@
 
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 
-![lint](https://github.com/heyanny2/frontend-project-lvl1/actions/workflows/lint.yml/badge.svg)
+[![Lint Status](https://github.com/heyanny2/frontend-project-lvl1/actions/workflows/lint.yml/badge.svg)](https://github.com/heyanny2/frontend-project-lvl1/actions)
 
 <h1>Game 1: 'Even-game'</h1>
 <p>The essence of the game is as follows: the user is shown a random number. And he needs to answer yes if the number is even, or no if it is odd. The user must give the correct answer to three questions in a row.</p>
