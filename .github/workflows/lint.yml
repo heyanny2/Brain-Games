@@ -1,10 +1,13 @@
 name: lint
 on:
   - push
+  - pull_request
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    matrix:
+    strategy:
+      matrix:
         node-version: [14.x]
     steps:
       - uses: actions/checkout@v2
