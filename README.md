@@ -6,7 +6,8 @@
 [![Lint Status](https://github.com/heyanny2/frontend-project-lvl1/actions/workflows/lint.yml/badge.svg)](https://github.com/heyanny2/frontend-project-lvl1/actions)
 
 ### Installation and setup:
-```git clone git@github.com:heyanny2/frontend-project-lvl1.git
+```
+git clone git@github.com:heyanny2/frontend-project-lvl1.git
 
 cd frontend-project-lvl1
 
@@ -31,7 +32,8 @@ The essence of the game is as follows: the user is shown a random mathematical e
 - Operations, like numbers, are chosen randomly.
 Run game:
 
-```brain-calc
+```
+brain-calc
 ```
 
 [![asciicast](https://asciinema.org/a/uYT8rgbVQXyBBK7l5itV2MqIv.svg)](https://asciinema.org/a/uYT8rgbVQXyBBK7l5itV2MqIv)
@@ -40,7 +42,8 @@ Run game:
 The essence of the game is as follows: the user is shown two random numbers. The user must calculate and enter the greatest common divisor of these numbers. The user must give the correct answer to three questions in a row.
 Run game:
 
-```brain-gcd
+```
+brain-gcd
 ```
 
 [![asciicast](https://asciinema.org/a/m3BoxmLpvVgD1VU1bWiQoT4gi.svg)](https://asciinema.org/a/m3BoxmLpvVgD1VU1bWiQoT4gi)
@@ -51,7 +54,8 @@ The user have to find out the number in an arithmetic progression that is hidden
 - The position of the hidden element changes each time (selected randomly)
 Run game:
 
-```brain-progression
+```
+brain-progression
 ```
 
 [![asciicast](https://asciinema.org/a/NtzSAXEgnkTC6ZOfGGronsWQx.svg)](https://asciinema.org/a/NtzSAXEgnkTC6ZOfGGronsWQx)
@@ -60,6 +64,7 @@ Run game:
 The user have to find out if the number is prime. The user must give the correct answer to three questions in a row.
 Run game:
 
-```brain-prime
+```
+brain-prime
 ```
 [![asciicast](https://asciinema.org/a/a7NydQH3RXOBgJfRWqktnfhFQ.svg)](https://asciinema.org/a/a7NydQH3RXOBgJfRWqktnfhFQ)
