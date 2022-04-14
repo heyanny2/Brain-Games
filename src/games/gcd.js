@@ -1,4 +1,4 @@
-const gameRules = 'Find the greatest common divisor of given numbers.?';
+const gameRules = 'Find the greatest common divisor of given numbers.';
 
 const findCorrectAnswer = (num1, num2) => {
   let a = num1;
