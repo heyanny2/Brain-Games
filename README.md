@@ -5,11 +5,13 @@
 
 [![Lint Status](https://github.com/heyanny2/frontend-project-lvl1/actions/workflows/lint.yml/badge.svg)](https://github.com/heyanny2/frontend-project-lvl1/actions)
 
+# Brain-games
+
+A set of console games for the Hexlet front-end development course study project No. 1.
+
 ### Installation and setup:
 ```
 git clone git@github.com:heyanny2/frontend-project-lvl1.git
-
-cd frontend-project-lvl1
 
 npm ci
 
