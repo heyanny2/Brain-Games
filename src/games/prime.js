@@ -1,4 +1,7 @@
+import randFromInt from '../util.js';
+
 const gameRules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+
 const answer = (num) => {
   if (num < 2) {
     return 'no';
@@ -12,7 +15,7 @@ const answer = (num) => {
 };
 
 const gameData = () => {
-  const randNum = Math.floor(Math.random() * 50);
+  const randNum = randFromInt(1, 50);
   const statement = `${randNum}`;
   const correctAnswer = answer(randNum);
   return [correctAnswer, statement];

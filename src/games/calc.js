@@ -1,4 +1,7 @@
+import randFromInt from '../util.js';
+
 const gameRules = 'What is the result of the expression?';
+const operators = ['+', '-', '*'];
 
 const randomOperator = () => {
   const rand = Math.floor(Math.random() * 3);
@@ -15,14 +18,16 @@ const findCorrectAnswer = (num1, operator, num2) => {
       return num1 + num2;
     case '-':
       return num1 - num2;
-    default:
+    case '*':
       return num1 * num2;
+    default:
+      throw new Error(`Unsupported operator - ${operator}`);
   }
 };
 
 const gameData = () => {
-  const randomNum1 = Math.floor(Math.random() * 30);
-  const randomNum2 = Math.floor(Math.random() * 30);
+  const randomNum1 = randFromInt(0, 30);
+  const randomNum2 = randFromInt(0, 30);
   const randOperator = randomOperator();
   const statement = `${randomNum1} ${randOperator} ${randomNum2}`;
   const correctAnswer = String(findCorrectAnswer(randomNum1, randOperator, randomNum2));

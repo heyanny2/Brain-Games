@@ -1,4 +1,7 @@
+import randFromInt from '../util.js';
+
 const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
+
 const answer = (num) => {
   if (num % 2 === 0) {
     return 'yes';
@@ -7,7 +10,7 @@ const answer = (num) => {
 };
 
 const gameData = () => {
-  const randNum = Math.floor(Math.random() * 100);
+  const randNum = randFromInt(0, 100);
   const statement = `${randNum}`;
   const correctAnswer = answer(randNum);
   return [correctAnswer, statement];

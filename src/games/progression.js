@@ -1,9 +1,6 @@
-const gameRules = 'What number is missing in the progression?';
+import randFromInt from '../util.js';
 
-const randFromInt = (min, max) => {
-  const randNum = Math.random() * (max - min) + min;
-  return Math.floor(randNum);
-};
+const gameRules = 'What number is missing in the progression?';
 
 const gameData = () => {
   const randDifference = randFromInt(1, 10);
