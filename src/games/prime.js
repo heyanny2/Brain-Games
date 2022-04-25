@@ -2,23 +2,23 @@ import randFromInt from '../util.js';
 
 const gameRules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const answer = (num) => {
+const isPrime = (num) => {
   if (num < 2) {
-    return 'no';
+    return false;
   }
   for (let div = 2; div <= (num / 2); div += 1) {
     if (num % div === 0) {
-      return 'no';
+      return false;
     }
   }
-  return 'yes';
+  return true;
 };
 
-const gameData = () => {
+const generateRound = () => {
   const randNum = randFromInt(1, 50);
   const statement = `${randNum}`;
-  const correctAnswer = answer(randNum);
+  const correctAnswer = isPrime(randNum) ? 'yes' : 'no';
   return [correctAnswer, statement];
 };
 
-export { gameData, gameRules };
+export { generateRound, gameRules };

@@ -2,16 +2,20 @@ import randFromInt from '../util.js';
 
 const gameRules = 'What number is missing in the progression?';
 
-const gameData = () => {
-  const randDifference = randFromInt(1, 10);
-  const rand = randFromInt(1, 10);
-  const progressionLength = randFromInt(5, 10);
-  const progression = [];
-  let start = rand;
-  for (let i = 0; i < progressionLength; i += 1) {
-    progression.push(start);
-    start += randDifference;
+const getProgression = (length, pitch) => {
+  const result = [];
+  let start = randFromInt(1, 10);
+  for (let i = 0; i < length; i += 1) {
+    result.push(start);
+    start += pitch;
   }
+  return result;
+};
+
+const generateRound = () => {
+  const progressionLength = randFromInt(5, 10);
+  const progressionPitch = randFromInt(1, 10);
+  const progression = getProgression(progressionLength, progressionPitch);
   const randIndex = randFromInt(0, progressionLength - 1);
   const correctAnswer = String(progression[randIndex]);
   progression[randIndex] = '..';
@@ -19,4 +23,4 @@ const gameData = () => {
   return [correctAnswer, statement];
 };
 
-export { gameData, gameRules };
+export { generateRound, gameRules };

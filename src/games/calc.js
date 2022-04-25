@@ -3,15 +3,6 @@ import randFromInt from '../util.js';
 const gameRules = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
 
-const randomOperator = () => {
-  const rand = Math.floor(Math.random() * 3);
-  if (rand === 0) {
-    return '+';
-  } if (rand === 1) {
-    return '-';
-  } return '*';
-};
-
 const findCorrectAnswer = (num1, operator, num2) => {
   switch (operator) {
     case '+':
@@ -25,13 +16,13 @@ const findCorrectAnswer = (num1, operator, num2) => {
   }
 };
 
-const gameData = () => {
+const generateRound = () => {
   const randomNum1 = randFromInt(0, 30);
   const randomNum2 = randFromInt(0, 30);
-  const randOperator = randomOperator();
+  const randOperator = operators[randFromInt(0, operators.length - 1)];
   const statement = `${randomNum1} ${randOperator} ${randomNum2}`;
   const correctAnswer = String(findCorrectAnswer(randomNum1, randOperator, randomNum2));
   return [correctAnswer, statement];
 };
 
-export { gameData, gameRules };
+export { generateRound, gameRules };
