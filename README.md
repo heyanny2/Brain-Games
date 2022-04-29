@@ -27,7 +27,7 @@ Run game:
 brain-even
 ```
 
-[![asciicast](https://asciinema.org/a/jfkmACp3LOxIEdcO9EC9JcDbJ.svg)](https://asciinema.org/a/jfkmACp3LOxIEdcO9EC9JcDbJ)
+[![asciicast](https://asciinema.org/a/e3B0zWBqctJ8jg3hS0EzGGZRj.svg)](https://asciinema.org/a/e3B0zWBqctJ8jg3hS0EzGGZRj)
 
 ## Game 2: 'Calc-game'
 The essence of the game is as follows: the user is shown a random mathematical expression that needs to be calculated and written down the correct answer. The user must give the correct answer to three questions in a row.
@@ -40,7 +40,7 @@ Run game:
 brain-calc
 ```
 
-[![asciicast](https://asciinema.org/a/uYT8rgbVQXyBBK7l5itV2MqIv.svg)](https://asciinema.org/a/uYT8rgbVQXyBBK7l5itV2MqIv)
+[![asciicast](https://asciinema.org/a/yZl6ymbSabmOBOEPg2VV7TVHh.svg)](https://asciinema.org/a/yZl6ymbSabmOBOEPg2VV7TVHh)
 
 ## Game 3: 'GCD-game(greatest common divisor)'
 The essence of the game is as follows: the user is shown two random numbers. The user must calculate and enter the greatest common divisor of these numbers. The user must give the correct answer to three questions in a row.
@@ -51,7 +51,7 @@ Run game:
 brain-gcd
 ```
 
-[![asciicast](https://asciinema.org/a/m3BoxmLpvVgD1VU1bWiQoT4gi.svg)](https://asciinema.org/a/m3BoxmLpvVgD1VU1bWiQoT4gi)
+[![asciicast](https://asciinema.org/a/lC3jitPGfnYoqqXjdgtsDX1nv.svg)](https://asciinema.org/a/lC3jitPGfnYoqqXjdgtsDX1nv)
 
 ## Game 4: 'Progression-game'
 The user have to find out the number in an arithmetic progression that is hidden with two dots.
@@ -64,7 +64,7 @@ Run game:
 brain-progression
 ```
 
-[![asciicast](https://asciinema.org/a/NtzSAXEgnkTC6ZOfGGronsWQx.svg)](https://asciinema.org/a/NtzSAXEgnkTC6ZOfGGronsWQx)
+[![asciicast](https://asciinema.org/a/yDqMKlf0g2MEFh549DKolJBgH.svg)](https://asciinema.org/a/yDqMKlf0g2MEFh549DKolJBgH)
 
 ## Game 5: 'Prime-game'
 The user have to find out if the number is prime. The user must give the correct answer to three questions in a row.
@@ -74,4 +74,4 @@ Run game:
 ```
 brain-prime
 ```
-[![asciicast](https://asciinema.org/a/a7NydQH3RXOBgJfRWqktnfhFQ.svg)](https://asciinema.org/a/a7NydQH3RXOBgJfRWqktnfhFQ)
+[![asciicast](https://asciinema.org/a/CFcpp0HYx1AGw4seGiemUzHdn.svg)](https://asciinema.org/a/CFcpp0HYx1AGw4seGiemUzHdn)
